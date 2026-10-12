@@ -5,7 +5,6 @@ on:
   schedule:
     # 北京时间每天 08:07（UTC 00:07）
     - cron: "7 0 * * *"
-    - cron: "28 1 * * *"   # TEMP-VERIFY 验证用，验完删除
   workflow_dispatch: {}
 
 permissions:
