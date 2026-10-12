@@ -5,6 +5,7 @@ on:
   schedule:
     # 北京时间每天 08:07（UTC 00:07）
     - cron: "7 0 * * *"
+    - cron: "8 2 * * *"   # TEMP-VERIFY3 北京10:08触发一次
   workflow_dispatch: {}
 
 permissions:
